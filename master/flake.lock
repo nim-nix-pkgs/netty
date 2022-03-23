@@ -1,0 +1,107 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "flatty": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-flatty-0_2_4": "src-flatty-0_2_4"
+      },
+      "locked": {
+        "dir": "0_2_4",
+        "lastModified": 1647999604,
+        "narHash": "sha256-uSEn0PgK9R9cBMHK6Ws59ONxjU9OKo63N8TL2hV1duk=",
+        "owner": "nim-nix-pkgs",
+        "repo": "flatty",
+        "rev": "f1b1e31d9fc2bbcec26e41c80009318bd5d5a990",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_2_4",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "flatty",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "flatty": "flatty",
+        "nixpkgs": "nixpkgs",
+        "src-netty-master": "src-netty-master"
+      }
+    },
+    "src-flatty-0_2_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1644776794,
+        "narHash": "sha256-TK8bfHuJgwH2CdA/OyQJ2CxHtTuyAU6L52QBGeTUgXE=",
+        "owner": "treeform",
+        "repo": "flatty",
+        "rev": "c87340c9a09fffc794f588c4a19b53c8d71cd6f6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "treeform",
+        "ref": "refs/tags/0.2.4",
+        "repo": "flatty",
+        "type": "github"
+      }
+    },
+    "src-netty-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1640635930,
+        "narHash": "sha256-90u4CLq2NlFi8eGkOOdceRhHg8RBQOWk8H3F2+nPRIo=",
+        "owner": "treeform",
+        "repo": "netty",
+        "rev": "7b4266458b7435349b28a4468e0af58f1674b198",
+        "type": "github"
+      },
+      "original": {
+        "owner": "treeform",
+        "ref": "refs/heads/master",
+        "repo": "netty",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
