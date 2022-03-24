@@ -36,10 +36,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-netty-v0_1_0": "src-netty-v0_1_0"
+        "src-netpipe-v0_1_0": "src-netpipe-v0_1_0"
       }
     },
-    "src-netty-v0_1_0": {
+    "src-netpipe-v0_1_0": {
       "flake": false,
       "locked": {
         "lastModified": 1564605041,
