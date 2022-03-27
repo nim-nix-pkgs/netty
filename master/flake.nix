@@ -11,6 +11,7 @@
   inputs.src-netty-master.ref   = "refs/heads/master";
   inputs.src-netty-master.owner = "treeform";
   inputs.src-netty-master.repo  = "netty";
+  inputs.src-netty-master.dir   = "";
   inputs.src-netty-master.type  = "github";
   
   inputs."flatty".owner = "nim-nix-pkgs";

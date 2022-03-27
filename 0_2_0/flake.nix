@@ -11,6 +11,7 @@
   inputs.src-netty-0_2_0.ref   = "refs/tags/0.2.0";
   inputs.src-netty-0_2_0.owner = "treeform";
   inputs.src-netty-0_2_0.repo  = "netty";
+  inputs.src-netty-0_2_0.dir   = "";
   inputs.src-netty-0_2_0.type  = "github";
   
   inputs."snappy".owner = "nim-nix-pkgs";
