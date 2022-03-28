@@ -11,7 +11,6 @@
   inputs.src-netpipe-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-netpipe-v0_1_0.owner = "treeform";
   inputs.src-netpipe-v0_1_0.repo  = "netty";
-  inputs.src-netpipe-v0_1_0.dir   = "";
   inputs.src-netpipe-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
